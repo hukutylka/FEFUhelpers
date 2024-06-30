@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background: url("https://www.dvfu.ru/upload/iblock/653/5716036.jpg") ;
+    background-size: cover;
+    height: 105vh;
+    background-attachment: fixed;
+}
+
+header{
+    color: white;
+    height: 8vh;
+    background-color: blue;
+}
+.head{
+    display: inline;
+    font-size: 140%;
+    width: 50%;
+}
+.contacts{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: right;
+    width: 30%;
+    color: white;
+}
+#main_link{
+    height: 6vh;
+    margin-top: 0.5vh;
+    margin-left: 0.5%;
+    border-radius: 8%;
+    border: 3px solid deepskyblue;
+}
+#form_list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgba(0, 125, 215, 0.7);
+    border-radius: 5px;
+    opacity: 0;
+    animation: ani 1s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#helpers{
+    font-size: 140%;
+    color: white;
+    margin-left: 3%;
+
+}
+.form_raw{
+    margin-left: 3%;
+}
+
+.form{
+    background-color: rgba(224, 255, 255, 0.9);
+    border-radius: 3%;
+    margin-top: 2%;
+    vertical-align: top;
+    margin-bottom: 1%;
+    width: 30%;
+    display: inline-block;
+    margin-right:3%;
+}
+
+.form_2{
+    background-color: rgba(224, 255, 255, 0.9);
+    border-radius: 3%;
+    margin-top: 2%;
+    vertical-align: top;
+    margin-bottom: 1%;
+    width: 80%;
+    display: inline-block;
+    margin-right:3%;
+}
+
+.form_pic{
+    border-radius: 10%;
+    width: 96%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.form_text{
+    margin-left: 3%;
+    font-size: 135%;
+}
+
+footer{
+    height: 9vh;
+    font-size: 120%;
+    color: white;
+    margin-top: 2%;
+    background-color: rgba(25, 27, 42, 0.99);
+}
+
+.about{
+    margin-left: 3%;
+}
+a.hyper_link{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a.hyper_link:hover{
+    color: lightskyblue;
+}
